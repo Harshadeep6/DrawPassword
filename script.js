@@ -10,7 +10,7 @@ const colorPallete = [
     "aqua", // Sona chandi
     "crimson", // Neela aasman
     "khaki", // Tamatar laal
-    "lavender", // Aasmani paani
+    "deepskyblue", // Aasmani paani
     "blue", // Kesar bhara orange
     "white"  // Badal ka bhatakti saaya
 ];
