@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1 {
+    font-family: Raleway Dots;
+}
+
+label, h3, button {
+    font-family: Roboto Slab;
+    margin-left: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #15202B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 20px;
+}
+
+#usernameCon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#usernameCon > label {
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+#usernameCon > input {
+    padding: 7px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+#passwordCon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#passwordCon > label {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.password {
+    height: 33px;
+    padding: 7px;
+    transition: height .3s ease;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.focus {
+    height: 430px;
+    caret-color: transparent;
+}
+
+.gridContainer {
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    top: 230px;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.opa {
+    opacity: 1;
+    /* display: block; */
+}
+
+.passwordGrid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 5px;
+}
+
+.boxes {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.colorGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: start;
+    row-gap: 7px;
+    column-gap: 7px;
+}
+
+.colors {
+    width: 25px;
+    height: 25px;
+    /* background-color: red; */
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px 200px;
+    background-color: #0066b2;
+    border-radius: 10px;
+}
+
+#color-1 {
+    background-color: red;
+}
+
+#color-2 {
+    background-color: green;
+}
+
+#color-3 {
+    background-color: yellow;
+}
+
+#color-4 {
+    background-color: violet;
+}
+
+#color-5 {
+    background-color: indigo;
+}
+
+#color-6 {
+    background-color: orange;
+}
+
+#color-7 {
+    background-color: aqua;
+}
+
+#color-8 {
+    background-color: crimson;
+}
+
+#color-9 {
+    background-color: khaki;
+}
+
+#color-10 {
+    background-color: lavender;
+}
+
+#color-11 {
+    background-color: blue;
+}
+
+#color-12 {
+    background-color: white;
+}
+
+#color-1:active {
+    transform: scale(0.90);
+}
+
+#color-2:active {
+    transform: scale(0.90);
+}
+
+#color-3:active {
+    transform: scale(0.90);
+}
+
+#color-4:active {
+    transform: scale(0.90);
+}
+
+#color-5:active {
+    transform: scale(0.90);
+}
+
+#color-6:active {
+    transform: scale(0.90);
+}
+
+#color-7:active {
+    transform: scale(0.90);
+}
+
+#color-8:active {
+    transform: scale(0.90);
+}
+
+#color-9:active {
+    transform: scale(0.90);
+}
+
+#color-10:active {
+    transform: scale(0.90);
+}
+
+#color-11:active {
+    transform: scale(0.90);
+}
+
+#color-12:active {
+    transform: scale(0.90);
+}
+
+h3 {
+    color: white
+}
+
+button {
+    position: absolute;
+    bottom: 25px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #3457D5;
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.buttonVisible {
+    opacity: 1;
+}
+
+button:active {
+    transform: scale(0.95);
+}
